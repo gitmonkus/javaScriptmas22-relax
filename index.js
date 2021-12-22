@@ -55,7 +55,7 @@ btn.addEventListener("click", function () {
 
 document.getElementById("btn30").addEventListener("click", function () {
   minutes = 0;
-  seconds = 31;
+  seconds = 30;
   begin();
 });
 
