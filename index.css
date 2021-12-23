@@ -32,10 +32,11 @@ body {
 }
 h1 {
   margin-top: 10px;
+  width: 100%;
   font-size: 3rem;
   color: var(--others);
   text-shadow: 2px 2px 1px var(--othersoft);
-  border-bottom: 4px dashed;
+  border-bottom: 4px dashed var(--othersoft);
   padding-bottom: 30px;
 }
 .main-container {
