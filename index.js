@@ -15,6 +15,10 @@ let timeout;
 const audio = new Audio("audio/timer.mp3");
 const meditation = new Audio("audio/fifteenmin.mp3");
 
+// meditation audio
+// Artist: Unknown
+// Music: 15 Minute Super Deep Meditation Music Relax Mind Body Inner Peace Relaxing Music 2563B
+
 let minutes = 14;
 let seconds = 60;
 
