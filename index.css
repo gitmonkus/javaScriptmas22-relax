@@ -10,15 +10,16 @@
   --other: #663c1d;
   --others: #30566d;
 }
-
+* {
+  color: var(--others);
+  box-sizing: border-box;
+}
 html,
 body {
   margin: 0;
   padding: 0;
 }
-* {
-  color: var(--others);
-}
+
 body {
   display: flex;
   flex-direction: column;
@@ -26,7 +27,6 @@ body {
   align-items: center;
   height: 100vh;
   text-align: center;
-  color: #9a9c9e;
   background: url(img/calmtree.jpg) no-repeat;
   background-size: cover;
 }
